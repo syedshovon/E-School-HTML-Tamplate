@@ -1,0 +1,150 @@
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #413960;
+}
+h3{
+    font-size: 24px;
+    color: #413960;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+}
+.main-button{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #21B573;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 20px;
+}
+.head-section{
+    background-color: #F0FFF0;
+    padding-bottom: 50px;
+}
+.nav-section{
+    margin-bottom: 30px;
+}
+
+.nav-link{
+    margin: 0px 10px;
+}
+.signIn-button{
+    color: white;
+    background-color: #21B573;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.orange-text{
+    color: #FD511A;
+}
+.green-text{
+    color: #21B573;
+}
+/*Top section css*/
+.top-section img{
+    width: 100%;
+}
+/*Category Section*/
+.category-section{
+    margin-bottom: 90px;
+}
+.category-section .card-img-top{
+    width: 66px;
+    height: 85px;
+    align-self: center;
+    margin-top: 10px;
+}
+.category-section .card-body{
+   text-align: center;
+}
+.category-section .card{
+    background-color: #F8FFFB;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px lightgrey;
+    padding: 20px 10px;
+ }
+ .category-section .card-hover:hover{
+     background-color: white;
+     border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px lightgrey;
+    padding: 20px 10px;
+ }
+
+ /*Online Course Section css*/
+ .online-course{
+    margin-bottom: 90px;
+ }
+ .online-course h3{
+     text-align: center;
+     margin-bottom: 50px;
+     font-weight: 600;
+ }
+.online-course .card{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px lightgrey;;
+}
+ .Card-Meta{
+    margin-top: 35px;
+ }
+ .Card-Meta img{
+     width: 18px;
+     height: 18px;
+ }
+ .Card-Meta a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+/*Testimonial-Section css*/
+.Testimonial-Section{
+    margin-bottom: 90px;
+}
+.Testimonial-Section h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.Testimonial-Section img{
+   width: 120px;
+   height: 120px;
+}
+.Testimonial-Section p{
+    padding-right: 20%;
+}
+/*Footer Section css*/
+.Footer-Section{
+    background-color: #282531;
+    color: white;
+}
+.Footer-Section p{
+    color: white;
+    font-size: 14px;
+}
+.Footer-Section .nav-link{
+    color: white !important;
+    font-size: 13px;
+    font-weight: 200;
+}
+.Footer-Copyritht p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+}
+
+.Footer-Section .py-5{
+    padding-top: 3rem!important;
+    padding-bottom: 1px !important;
+}
